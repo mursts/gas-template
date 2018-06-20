@@ -8,14 +8,13 @@
   },
   "main": "src/main.js",
   "scripts": {
-    "build": "webpack",
-    "push": "webpack && cpx ./src/appsscript.json dist && clasp push"
+    "build": "webpack && cp ./src/appsscript.json ./dist",
+    "push": "npm run build && clasp push"
   },
   "author": "mursts",
   "devDependencies": {
     "@types/google-apps-script": "^0.0.24",
     "awesome-typescript-loader": "^4.0.0",
-    "cpx": "^1.5.0",
     "gas-webpack-plugin": "^0.3.0",
     "typescript": "^2.9.2",
     "webpack": "^3.12.0"

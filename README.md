@@ -5,12 +5,21 @@ GASを作成する時のテンプレート。TypeScriptを使用する
 ## 使い方
 
 ```shell
-$ git clone https://github.com/mursts/gas-template
-$ mv gas-template xxxxx
-$ cd xxxxx
-$ rm -rf .git
+$ npm i @google/clasp -g
+$ git clone https://github.com/mursts/gas-template <project_name>
+$ cd <project_name>
 $ npm install
-$ vi dev/xxxx.ts
+$ vi .clasp.json
 ```
 
-Thanks: https://hori-ryota.com/blog/googleappsscript-by-typescript/
+### ビルド
+
+```shell
+$ npm run build
+```
+
+### デプロイ
+
+```shell
+$ npm run push
+```

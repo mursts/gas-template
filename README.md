@@ -9,7 +9,8 @@ $ npm i @google/clasp -g
 $ git clone https://github.com/mursts/gas-template <project_name>
 $ cd <project_name>
 $ npm install
-$ vi .clasp.json
+$ mv .clasp.json.org .clasp.json
+$ vi .clasp.json # input scriptId
 ```
 
 ### ビルド

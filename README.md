@@ -1,26 +1,4 @@
 # gas-template
 
-GASを作成する時のテンプレート。TypeScriptを使用する
+see: https://github.com/howdy39/gas-clasp-starter.git
 
-## 使い方
-
-```shell
-$ npm i @google/clasp -g
-$ git clone https://github.com/mursts/gas-template <project_name>
-$ cd <project_name>
-$ npm install
-$ mv .clasp.json.org .clasp.json
-$ vi .clasp.json # input scriptId
-```
-
-### ビルド
-
-```shell
-$ npm run build
-```
-
-### デプロイ
-
-```shell
-$ npm run push
-```

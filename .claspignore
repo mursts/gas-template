@@ -1,3 +1,0 @@
-dist/*
-!dist/appsscript.json
-!dist/bundle.js
